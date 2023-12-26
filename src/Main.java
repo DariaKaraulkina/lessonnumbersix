@@ -4,8 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(catsHangry()));
-
+        int[] result = catsHangry();
+        String strResult = Arrays.toString(result);
+        System.out.println(strResult);
     }
 
     public static int[] catsHangry() {
